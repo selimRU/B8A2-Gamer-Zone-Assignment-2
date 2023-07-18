@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Crimson+Text&family=Libre+Baskerville&family=Merriweather&family=Noto+Serif:ital,wght@0,300;0,400;1,300;1,400&family=Open+Sans&family=Roboto+Condensed&family=Roboto:wght@400;500&family=Rubik&family=Staatliches&family=Work+Sans&display=swap');
 
-/* nav side styl starts */
+/* nav side style starts */
 nav {
     margin: 0px auto;
 }
@@ -84,7 +84,10 @@ nav {
     background: rgba(11, 2, 35, 0.10);
     margin-right: 5px;
 }
+/* nav style finished here */
 
+
+/* Banner section style starts here */
 .banner-container {
     max-width: 1100px;
     display: flex;
@@ -155,7 +158,7 @@ nav {
 .btn-sign {
     color: #FFF;
     font-family:'Work Sans', sans-serif;
-    padding: 15px 25px;
+    padding: 20px 30px;
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
@@ -168,7 +171,7 @@ nav {
     color: #FFF;
     font-family: 'Work Sans', sans-serif;
     font-size: 10px;
-    padding: 15px 25px;
+    padding: 20px 30px;
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 48px;
@@ -179,3 +182,5 @@ nav {
 .btn-container{
     margin-top: 25px;
 }
+
+/* Banner section style finished here */

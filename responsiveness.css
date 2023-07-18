@@ -1,12 +1,16 @@
 /* Mobile responsiveness starts here */
 @media screen and (max-width: 576px) {
+
+    /* nav mobile responsivnes starts here */
     .nav-container {
         display: flex;
         flex-direction: column;
     }
+
     .nav-title {
-       margin-left: 25px;
+        margin-left: 25px;
     }
+
     .nav-links {
         display: flex;
         flex-direction: column;
@@ -27,23 +31,84 @@
     }
 
     .follow-link {
-       width: 210px;
+        width: 210px;
     }
+
+
+
+    /* Banner section mobile responsiveness starts here */
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .banner-text {
+        width: 100%;
+
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-text h3 {
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .banner-text h2 {
+        text-align: center;
+    }
+
+    .banner-feature {
+        width: 58%;
+        margin: 0px auto;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
 }
-/* Mobile responsiveness finished here */
 
 
-/* Tablet responsiveness starts here */
-@media screen and (min-width: 576px) and (max-width: 992px){
+
+     /* Tablet responsiveness starts here */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    /* nav tablet responsivness starts here */
     .nav-container {
         display: flex;
     }
+
     .nav-links a {
         margin-left: 10px;
         font-size: 10px;
-       
+
     }
+
     .follow-link {
         padding: 5px 10px;
-     }
+    }
+
+
+
+    /* Banner section tablet responsiveness starts here */
+
+    .banner-container {
+        flex-direction: row;
+
+    }
+    .banner-text {
+        width: 50%;
+
+    }
+    .banner-img {
+        width: 50%;
+    }
 }
