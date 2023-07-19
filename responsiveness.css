@@ -37,14 +37,16 @@
 
 
     /* Banner section mobile responsiveness starts here */
-    .banner-container {
-        display: flex;
-        flex-direction: column-reverse;
+    .banner-section {
         background-position: bottom;
         background-position-x: 100%;
         background-size: 80% 50%;
+    }
 
-
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20% 0px;
     }
 
     .banner-text {
@@ -128,6 +130,9 @@
 
     /* Gamer information style starts here */
 
+    .information-section {
+        width: auto;
+    }
 
     .information-container {
         display: flex;
@@ -236,9 +241,120 @@
         display: block;
         background: rgba(0, 0, 0, .6);
     }
+
+    .playing-offer-container {
+        flex-direction: column;
+    }
+
+    .playing-offer {
+        width: 100%;
+    }
+
+    .playing-offer-img-container {
+        width: 100%;
+        margin-left: 10px;
+
+    }
+
+    .playing-offer-img-1 {
+        width: 80%;
+
+
+
+    }
+
+    .playing-offer h3 {
+        font-size: 25px;
+        margin-left: 20%;
+    }
+
+
+    .plying-details {
+
+        font-size: 10px;
+        margin-left: 20%;
+
+
+    }
+
+    .instant-playing {
+        font-size: 25px;
+    }
+
+
+    .game-classification {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        align-items: center;
+        margin: 20px auto;
+
+    }
+
+    .gamer {
+        font-size: 30px;
+    }
+
+    .gamer-span {
+        font-size: 30px;
+    }
+
+    .footer-title img {
+        width: 10%;
+        height: 10%;
+        object-fit: cover;
+
+    }
+
+    .footer-links a {
+        font-size: 10px;
+
+    }
+
+    .social-sites {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 30%;
+        margin: 20px auto;
+        align-items: center;
+
+    }
+
+    .social-sites a {
+        font-size: 15px;
+
+    }
+
+    .terms-policy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    .terms-policy a {
+        font-size: 10px;
+    }
+
+    .copy-right {
+        width: 35%;
+        margin: auto;
+    }
+
+    .footer-section {
+        margin-left: 100px;
+
+
+    }
+
 }
-
-
 
 /* Tablet responsiveness starts here */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -261,10 +377,19 @@
 
 
     /* Banner section tablet responsiveness starts here */
+    .banner-section {
+        background-position: left;
+        background-size: 50%;
+    }
 
     .banner-container {
         flex-direction: row;
 
+    }
+
+    .banner-feature p {
+        font-size: 10px;
+        margin-left: 20px;
     }
 
     .banner-text {
@@ -272,10 +397,41 @@
 
     }
 
+    .banner-text h3 {
+        text-align: center;
+        margin-right: 150px;
+        font-size: 20px;
+
+    }
+
+    .banner-text h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-right: 150px;
+    }
+
     .banner-img {
         width: 50%;
     }
+    .dot-1 {
+        font-size: 4px;
 
+    }
+
+    .dot-2 {
+        font-size: 4px;
+
+    }
+
+    .dot-3 {
+        font-size: 4px;
+        margin-left: 5px;
+    }
+
+    .dot-4 {
+        font-size: 4px;
+        margin-left: -4px;
+    }
 
 
     .information-container {
@@ -303,12 +459,31 @@
     }
 
 
-     /* funny video section tablet responsiveness style starts here */
+    /* funny video section tablet responsiveness style starts here */
 
-     .funny-video-container {
-        display:grid;
+    .funny-video-container {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .playing-offer-container {
+        flex-direction: row;
+    }
 
+    .terms-policy {
+        gap: 20px;
+    }
+
+    .footer-title img {
+        width: 11%;
+        height: 11%;
+        object-fit: cover;
+
+    }
+
+    .game-classification {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-right: 15%;
+    }
 }

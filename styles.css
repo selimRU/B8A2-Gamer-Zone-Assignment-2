@@ -92,15 +92,18 @@ nav {
 
 
 /* Banner section style starts here */
+.banner-section {
+    background-image: url('./images/Group\ 14.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 45% 100%;
+}
+
 .banner-container {
     max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./images/Group\ 14.png);
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 45% 100%;
     margin: 0px auto;
 }
 
@@ -206,6 +209,9 @@ nav {
 }
 
 /* information section styles starts here */
+.information-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
 
 .information-container {
     max-width: 1200px;
@@ -214,7 +220,7 @@ nav {
     align-items: center;
     margin: 0px auto;
     padding: 0px 0px 40px 0px;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
 }
 
 .information-img {
@@ -474,4 +480,149 @@ nav {
     position: absolute;
     bottom: -12%;
     right: 58%;
+}
+
+.game-classification {
+    max-width: 1200px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 100px 0px 100px 120px;
+
+
+}
+
+
+.games {
+    display: flex;
+    gap: 10px;
+}
+
+.games img {
+    width: 35px;
+    height: 35px;
+}
+
+.games p {
+    font-size: 10px;
+}
+
+.games:hover {
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    background-color: #FFF;
+}
+
+footer {
+    background: #0B0223;
+}
+
+.footer-section {
+    max-width: 1200px;
+
+    padding: 100px 0px;
+    margin: 0px auto;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-title img {
+    width: 5%;
+    height: 5%;
+    object-fit: cover;
+
+}
+
+.gamer {
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gamer-span {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.footer-links a {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.social-sites {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+    gap: 40px;
+    color: #FFFFFF;
+}
+
+.social-sites a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.terms-policy {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.terms-policy a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 30px;
+
 }
