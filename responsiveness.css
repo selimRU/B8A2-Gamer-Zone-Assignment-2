@@ -8,7 +8,7 @@
     }
 
     .nav-title {
-        margin-left: 25px;
+        margin-left: 30%;
     }
 
     .nav-links {
@@ -40,30 +40,69 @@
     .banner-container {
         display: flex;
         flex-direction: column-reverse;
+        background-position: bottom;
+        background-position-x: 100%;
+        background-size: 80% 50%;
+
 
     }
 
     .banner-text {
         width: 100%;
+        margin-top: 25px;
+        padding: 30px 50px;
 
     }
 
     .banner-img {
         width: 100%;
+        margin-left: 62%;
+        margin-bottom: 15px;
+    }
+
+    .banner-img img {
+        width: 70%;
+        margin-top: 30px;
+
     }
 
     .banner-text h3 {
         text-align: center;
-        margin-left: 10px;
+        margin-right: 30px;
+        font-size: 25px;
+
     }
 
     .banner-text h2 {
         text-align: center;
+        font-size: 35px;
+        margin-right: 48px;
+    }
+
+    .dot-1 {
+        font-size: 5px;
+
+    }
+
+    .dot-2 {
+        font-size: 5px;
+
+    }
+
+    .dot-3 {
+        font-size: 5px;
+        margin-left: 5px;
+    }
+
+    .dot-4 {
+        font-size: 5px;
+        margin-left: -4px;
     }
 
     .banner-feature {
         width: 58%;
-        margin: 0px auto;
+        margin: -5px 0px 0px 20%;
+        font-size: 10px;
     }
 
     .btn-container {
@@ -71,14 +110,135 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 5px;
+        margin-right: 30px;
+
     }
 
+    .btn-sign {
+        padding: 10px 15px;
+    }
+
+    .btn-rogue {
+
+        padding: 10px 15px;
+
+    }
+
+
+    /* Gamer information style starts here */
+
+
+    .information-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: none;
+    }
+
+    .information-img {
+        width: 100%;
+
+    }
+
+    .gamer-informations {
+        width: 100%;
+
+    }
+
+    .gamer-informations p {
+        justify-content: center;
+        text-align-last: center;
+        font-size: 10px;
+        margin-left: 30%;
+
+    }
+
+    .btn-more {
+
+        justify-content: center;
+    }
+
+    .btn-more {
+        margin-left: 30%;
+        margin-top: 30px;
+
+    }
+
+    .purpose small {
+        justify-content: center;
+        margin-left: 30%;
+        margin-top: 50px;
+    }
+
+    .purpose b {
+        justify-content: center;
+        font-size: 18px;
+        margin-left: 30%;
+
+    }
+
+    .funny-video-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .funny-video-title {
+        font-size: 25px;
+        margin-left: 17%;
+    }
+
+    .funny {
+        font-size: 25px;
+
+    }
+
+    .funny-video-details {
+        margin-left: 20%;
+        font-size: 10px;
+    }
+
+    .img-container {
+        width: 90%;
+        margin-left: 17%;
+    }
+
+    .game-details {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .hover-img {
+        position: relative;
+        border-radius: 16px;
+
+    }
+
+    .hover-img:hover .play-btn {
+        opacity: 1;
+
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 7px;
+        left: 5px;
+        width: 323px;
+        height: 380px;
+        background: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+
+    }
+
+    .hover-img:hover .overlay {
+        display: block;
+        background: rgba(0, 0, 0, .6);
+    }
 }
 
 
 
-     /* Tablet responsiveness starts here */
+/* Tablet responsiveness starts here */
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
     /* nav tablet responsivness starts here */
@@ -104,11 +264,40 @@
         flex-direction: row;
 
     }
+
     .banner-text {
         width: 50%;
 
     }
+
     .banner-img {
         width: 50%;
     }
+
+
+
+    .information-container {
+        display: flex;
+        gap: 30px;
+    }
+
+    .gamer-informations p {
+        font-size: 10px;
+
+    }
+
+    .purpose small {
+        justify-content: center;
+        margin-left: 70%;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    .purpose b {
+        justify-content: center;
+        font-size: 10px;
+        margin-left: 40%;
+
+    }
+
 }
