@@ -374,13 +374,13 @@ nav {
 
 .overlay {
     position: absolute;
-  bottom: 7px;
-  left: 2px;
+    bottom: 7px;
+    left: 2px;
     width: 257px;
     height: 302px;
     background: rgba(0, 0, 0, 0);
     border-radius: 10px;
-  
+
 }
 
 .hover-img:hover .overlay {
@@ -413,4 +413,65 @@ nav {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+.playing-offer-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    text-align: center;
+}
+
+.instant-playing {
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -20%;
+}
+
+.plying-details {
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 15%;
+}
+
+.playing-offer {
+    width: 50%;
+}
+
+.playing-offer h3 {
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: -5%;
+}
+
+.playing-offer-img-container {
+    width: 50%;
+    position: relative;
+}
+
+.playing-offer-img-1 {
+    width: 60%;
+    margin-left: 19%;
+
+}
+
+.playing-offer-img-2 {
+    width: 30%;
+    position: absolute;
+    bottom: -12%;
+    right: 58%;
 }

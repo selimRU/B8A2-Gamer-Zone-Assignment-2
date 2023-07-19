@@ -178,6 +178,8 @@
 
     }
 
+
+    /* funny video mobile responsivnes section style starts here */
     .funny-video-container {
         display: flex;
         flex-direction: column;
@@ -299,5 +301,14 @@
         margin-left: 40%;
 
     }
+
+
+     /* funny video section tablet responsiveness style starts here */
+
+     .funny-video-container {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
 }
