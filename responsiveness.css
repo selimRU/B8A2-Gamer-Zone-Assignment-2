@@ -284,7 +284,7 @@
     .footer-links {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width: 80%;
+        width: 60%;
         align-items: center;
         margin: 20px auto;
     }
@@ -323,7 +323,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
-        width: 60%;
+        width: 50%;
         justify-content: center;
         margin: 25px auto;
     }
@@ -377,21 +377,28 @@
         font-size: 25px;
     }
 
+    .banner-feature {
+       font-size: 10px;
+    }
+
     .dot-1 {
-        font-size: 5px;
+        font-size: 8px;
+        margin-left: 4px;
     }
 
     .dot-2 {
-        font-size: 5px;
+        font-size: 8px;
+        margin-left: 4px;
     }
 
     .dot-3 {
-        font-size: 5px;
+        font-size: 8px;
+        margin-left: 5px;
     }
 
     .dot-4 {
-        font-size: 5px;
-        margin-right: -90%;
+        font-size: 8px;
+        margin-left: 2px;
     }
 
     .banner-text {
@@ -433,6 +440,7 @@
 
     .funny-video-container {
         display: grid;
+        gap: 30px;
         grid-template-columns: repeat(2, 1fr);
         padding: 0px 5%;
     }
@@ -443,10 +451,19 @@
         padding: 0px 5%;
     }
 
-    .terms-policy {
-        gap: 20px;
+    .instant-playing {
+        font-size: 25px;
     }
 
+    .playing-offer h3 {
+        font-size: 25px;
+    }
+
+    .plying-details {
+        margin-right: 30px;
+    }
+    
+  
     /*gamer classification section tablet responsivness starts here */
 
 
@@ -466,6 +483,14 @@
         width: 11%;
         height: 11%;
         object-fit: cover;
+    }
+
+    .social-sites a{
+        font-size: 25px;
+    }
+
+    .terms-policy {
+        gap: 20px;
     }
 
 

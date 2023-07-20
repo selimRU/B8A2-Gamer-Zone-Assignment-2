@@ -160,7 +160,10 @@ body {
     margin-top: -5%;
 }
 
-.fa-sharp,
+.fa-sharp{
+    color: #F948B2;
+    margin-right: 3px;
+}
 .fa-download {
     color: #F948B2;
 }
