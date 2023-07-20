@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Crimson+Text&family=Libre+Baskerville&family=Merriweather&family=Noto+Serif:ital,wght@0,300;0,400;1,300;1,400&family=Open+Sans&family=Roboto+Condensed&family=Roboto:wght@400;500&family=Rubik&family=Staatliches&family=Work+Sans&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -19,12 +21,10 @@ body {
 }
 
 
-
 /* nav side style starts */
 
 .nav-container {
     max-width: 1200px;
-
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -36,8 +36,6 @@ body {
     align-items: center;
     justify-content: start;
     width: 50%;
-
-
 }
 
 .nav-title img {
@@ -57,7 +55,6 @@ body {
     font-weight: 900;
     line-height: normal;
     color: #FF42A5;
-
 }
 
 .nav-links {
@@ -66,7 +63,6 @@ body {
     align-items: center;
     margin: 0px auto;
     width: 50%;
-
 }
 
 .nav-links a {
@@ -85,7 +81,6 @@ body {
     font-size: 30px;
     color: red;
     margin: 0px 5px;
-
 }
 
 .fa-tiktok {
@@ -103,10 +98,9 @@ body {
     margin-right: 5px;
 }
 
-/* nav style finished here */
-
 
 /* Banner section style starts here */
+
 .banner-section {
     background-image: url('./images/Group\ 14.png');
     background-position: left center;
@@ -116,7 +110,6 @@ body {
 
 .banner-container {
     max-width: 1200px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +118,6 @@ body {
 
 .banner-text {
     width: 50%;
-
 }
 
 .banner-text h3 {
@@ -133,7 +125,6 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: 600;
-
 }
 
 .banner-text h2 {
@@ -149,12 +140,10 @@ body {
 
 .dot-1 {
     font-size: 10px;
-
 }
 
 .dot-2 {
     font-size: 10px;
-
 }
 
 .dot-3 {
@@ -182,7 +171,6 @@ body {
 
 .banner-img {
     width: 50%;
-
 }
 
 .banner-img img {
@@ -197,7 +185,6 @@ body {
     color: #FFF;
     font-family: 'Work Sans', sans-serif;
     padding: 15px 20px;
-
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
@@ -230,13 +217,10 @@ body {
 
 .information-container {
     max-width: 1200px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px auto;
-
-
 }
 
 .information-img {
@@ -270,7 +254,6 @@ body {
     font-size: 25px;
     font-weight: 700;
     margin-top: 10px;
-
 }
 
 .gamer-informations h3 {
@@ -295,7 +278,6 @@ body {
     font-family: 'Work Sans', sans-serif;
     line-height: 25px;
     font-weight: 400;
-
 }
 
 .btn-more {
@@ -318,6 +300,7 @@ body {
     text-transform: uppercase;
 }
 
+/* Funny video section style starts her */
 
 .funny-video-section {
     max-width: 1200px;
@@ -359,7 +342,6 @@ body {
     font-style: normal;
     font-weight: 400;
     margin-bottom: 20px;
-
 }
 
 .funny-video-container img {
@@ -372,19 +354,15 @@ body {
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
-
-
 }
 
 .hover-img {
     position: relative;
     border-radius: 16px;
-
 }
 
 .hover-img:hover .play-btn {
     opacity: 1;
-
 }
 
 .overlay {
@@ -395,7 +373,6 @@ body {
     height: 302px;
     background: rgba(0, 0, 0, 0);
     border-radius: 10px;
-
 }
 
 .hover-img:hover .overlay {
@@ -414,7 +391,6 @@ body {
 
 .play {
     margin-left: 40px;
-
 }
 
 .watch {
@@ -430,6 +406,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+/* playing offer container section style starts here */
 
 .playing-offer-container {
     max-width: 1200px;
@@ -473,18 +450,15 @@ body {
     font-weight: 700;
     margin-bottom: -5%;
     padding-left: 15%;
-
 }
 
 .playing-offer-img-container {
     width: 50%;
     position: relative;
-
 }
 
 .playing-offer-img-1 {
     width: 100%;
-
 }
 
 .playing-offer-img-2 {
@@ -493,6 +467,8 @@ body {
     bottom: -8%;
     right: 80%;
 }
+
+/* game classification section style starts here */
 
 .game-classification {
     width: 70%;
@@ -503,9 +479,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
-
 
 .games {
     display: flex;
@@ -533,7 +507,6 @@ body {
 
 footer {
     background: #0B0223;
-
 }
 
 .footer-section {
@@ -553,7 +526,6 @@ footer {
     width: 5%;
     height: 5%;
     object-fit: cover;
-
 }
 
 .gamer {
@@ -577,6 +549,10 @@ footer {
     -webkit-text-fill-color: transparent;
 }
 
+
+/* footer section style starts here */
+
+
 .footer-links {
     display: flex;
     justify-content: space-evenly;
@@ -587,7 +563,6 @@ footer {
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-
 }
 
 .footer-links a {
@@ -598,7 +573,6 @@ footer {
     font-style: normal;
     font-weight: 600;
     text-decoration: none;
-
 }
 
 .social-sites {
@@ -619,7 +593,6 @@ footer {
     display: flex;
     gap: 20px;
     justify-content: center;
-
 }
 
 .terms-policy a {
@@ -639,5 +612,4 @@ footer {
     font-size: 10px;
     font-weight: 500;
     margin-top: 30px;
-
 }
