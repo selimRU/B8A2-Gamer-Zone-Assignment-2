@@ -372,13 +372,14 @@ body {
     position: absolute;
     bottom: 7px;
     left: 2px;
-    width: 257px;
-    height: 302px;
+    width: 288px;
+    height: 337px;
     background: rgba(0, 0, 0, 0);
     border-radius: 10px;
 }
 
 .hover-img:hover .overlay {
+    border: 5px solid #F948B2;
     display: block;
     background: rgba(0, 0, 0, .6);
 }
@@ -386,7 +387,7 @@ body {
 .play-btn {
     font-size: 35px;
     position: absolute;
-    right: 28%;
+    right: 32%;
     top: 40%;
     color: white;
     opacity: 0;
